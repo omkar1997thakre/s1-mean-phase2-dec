@@ -1,0 +1,3 @@
+interface IDeveloper{
+    printprojectName():void;
+}
