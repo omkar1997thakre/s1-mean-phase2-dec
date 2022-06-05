@@ -10,6 +10,9 @@ class Developer extends Employee implements IDeveloper{
     getName():void{
         console.log(this.projectName);
     }
+    invite(){
+        console.log("You are invited");
+    }
 }
 var dev=new Developer("Om","CS",101);
 dev.projectName="ICICI Bank";
